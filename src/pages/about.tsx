@@ -4,29 +4,28 @@ export function AboutPage() {
   return (
     <Page className=''>
       <div className="max-w-7xl mx-auto px-4 py-12">
-        {/* Hero Section */}
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold text-[#092519] mb-6">
             Sobre a Fazenda Cedro
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Mais de 150 anos de tradição, inovação e compromisso com a sustentabilidade 
+            Mais de 20 anos de tradição, inovação e compromisso com a sustentabilidade 
             no coração do sertão baiano.
           </p>
         </div>
 
-        {/* Story Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
           <div className="space-y-6">
             <h2 className="text-3xl font-semibold text-[#092519] mb-4">Nossa História</h2>
             <p className="text-gray-600 leading-relaxed">
-              Fundada em 1870, a Fazenda Cedro nasceu durante o período de expansão da criação 
-              de gado no Alto Sertão da Bahia. Localizada na região de Guanambi, nossa propriedade 
-              tem sido testemunha e participante ativa do desenvolvimento agropecuário regional.
+              A Fazenda Cedro, de origem antiga e com data de fundação não registrada, teve um novo marco em sua trajetória em 
+              2000, quando foi adquirida por Antônio Felício. Inserida no contexto da expansão da pecuária no Alto Sertão da 
+              Bahia, a propriedade está localizada na região de Guanambi e, desde então, tem sido testemunha e protagonista do 
+              desenvolvimento agropecuário regional.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Ao longo de mais de um século, a Fazenda Cedro evoluiu de uma propriedade tradicional 
-              de pecuária para um centro de referência em agronegócio sustentável, mantendo sempre 
+              Ao longo de mais de 20 anos, a Fazenda Cedro evoluiu de uma propriedade tradicional
+              de pecuária para um centro de referência em agronegócio sustentável, mantendo sempre
               o respeito pela tradição sertaneja e pela preservação ambiental.
             </p>
             <p className="text-gray-600 leading-relaxed">
@@ -36,7 +35,6 @@ export function AboutPage() {
             </p>
           </div>
 
-          {/* Image placeholder - you can replace with actual farm images */}
           <div className="bg-green-100 rounded-lg p-8 flex items-center justify-center">
             <div className="text-center">
               <svg className="w-24 h-24 text-green-600 mx-auto mb-4" fill="currentColor" viewBox="0 0 20 20">
@@ -47,7 +45,6 @@ export function AboutPage() {
           </div>
         </div>
 
-        {/* Values Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-semibold text-[#092519] text-center mb-12">Nossos Valores</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -83,7 +80,6 @@ export function AboutPage() {
           </div>
         </div>
 
-        {/* Stats Section */}
         <div className="bg-green-50 rounded-lg p-8 mb-16">
           <h2 className="text-3xl font-semibold text-[#092519] text-center mb-8">Em Números</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
@@ -106,7 +102,6 @@ export function AboutPage() {
           </div>
         </div>
 
-        {/* Location Section */}
         <div className="mb-16">
           <h2 className="text-3xl font-semibold text-[#092519] text-center mb-8">Nossa Localização</h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -148,7 +143,6 @@ export function AboutPage() {
               </div>
             </div>
 
-            {/* Google Maps Embed */}
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
               <div className="p-4 bg-green-50 border-b">
                 <h4 className="font-semibold text-[#092519]">Localização no Mapa</h4>
@@ -170,7 +164,6 @@ export function AboutPage() {
           </div>
         </div>
 
-        {/* CTA Section */}
         <div className="bg-[#092519] text-white rounded-lg p-8 text-center">
           <h2 className="text-2xl font-bold mb-4">Conheça Nossa Fazenda</h2>
           <p className="text-gray-300 mb-6 max-w-2xl mx-auto">
