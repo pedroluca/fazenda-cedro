@@ -134,15 +134,15 @@ export function ContactsPage() {
               <div className="space-y-2 text-sm">
                 <div className="flex justify-between">
                   <span className="text-gray-600">Segunda a Sexta</span>
-                  <span className="font-medium text-gray-900">8:00 - 17:00</span>
+                  <span className="font-medium text-gray-900">5:00 - 7:00 / 12:30 - 14:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Sábado</span>
-                  <span className="font-medium text-gray-900">8:00 - 12:00</span>
+                  <span className="font-medium text-gray-900">8:00 - 17:00</span>
                 </div>
                 <div className="flex justify-between">
                   <span className="text-gray-600">Domingo</span>
-                  <span className="font-medium text-gray-900">Fechado</span>
+                  <span className="font-medium text-gray-900">8:00 - 17:00</span>
                 </div>
               </div>
             </div>
