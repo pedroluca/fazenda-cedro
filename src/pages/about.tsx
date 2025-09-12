@@ -84,19 +84,19 @@ export function AboutPage() {
           <h2 className="text-3xl font-semibold text-[#092519] text-center mb-8">Em Números</h2>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">150+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">20+</div>
               <div className="text-gray-600">Anos de História</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">500+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">100+</div>
               <div className="text-gray-600">Hectares</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">1000+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
               <div className="text-gray-600">Cabeças de Gado</div>
             </div>
             <div>
-              <div className="text-3xl font-bold text-green-600 mb-2">50+</div>
+              <div className="text-3xl font-bold text-green-600 mb-2">2+</div>
               <div className="text-gray-600">Empregos Gerados</div>
             </div>
           </div>
